@@ -149,3 +149,14 @@ dmypy.json
 media/
 yatube_api/posts/static/
 
+WARNING: Running pip as root will break packages and permissions. You should install packages reliably by using venv: https://pip.pypa.io/warnings/venv
+./yatube_api/posts/models.py:6:1: E302 expected 2 blank lines, found 1
+./yatube_api/posts/models.py:14:1: E302 expected 2 blank lines, found 1
+./yatube_api/posts/models.py:43:1: E303 too many blank lines (5)
+./yatube_api/posts/models.py:52:48: W292 no newline at end of file
+./yatube_api/yatube_api/urls.py:14:1: W391 blank line at end of file
+./yatube_api/yatube_api/wsgi.py:17:1: W391 blank line at end of file
+./yatube_api/yatube_api/asgi.py:17:1: W391 blank line at end of file
+./yatube_api/api/urls.py:23:2: W292 no newline at end of file
+./yatube_api/api/permissions.py:15:10: W292 no newline at end of file
+================== Приведите код в соответствие с PEP8 ==================
